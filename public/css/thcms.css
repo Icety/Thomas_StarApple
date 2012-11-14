@@ -1,0 +1,283 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+        background-color: #FFA100;
+}
+
+
+#wrapper {
+        position: absolute;
+        top: 0px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+}
+
+#header {
+        position: relative;
+        height: 130px;
+        width: 100%;
+        top: 10px;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -khtml-border-radius: 25px;
+        border-radius: 25px;
+        background-color: white;
+        z-index: 10;
+}
+
+#inHeader1 {
+        position: relative;
+        height: 50px;
+        top: 5px;
+        margin: 0 5px 0 5px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #333;
+}
+
+#inHeader2 {
+        position: relative;
+        top: -15px;
+        height: 45px;
+        margin: 0 5px 0 5px;
+        background-color: #333;
+}
+
+#inHeader3 {
+        position: relative;
+        height: 40px;
+        top: -10px;
+        margin: 0 5px 0 5px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FFD07F;
+}
+
+#inHeader4 {
+        position: relative;
+        height: 20px;
+        top: -50px;
+        margin: 0 5px 0 5px;
+        background-color: #FFD07F;
+}
+
+#headerTitle {
+        position: absolute;
+        top: 23px;
+        left: 15px;
+        font-size: 40px;
+}
+
+.headerText1 {
+        color: #FFAC1C;
+}
+
+.headerText2 {
+        color: #FFD07F;
+}
+
+#headerLinks {
+        position: absolute;
+        top: 32px;
+        right: 15px;
+        color: #FFAC1C;
+        font-size: 20px;
+        text-align: right;
+}
+
+#headerLinks a {
+        color: #FFAC1C;
+}
+
+#headerLinks a:visited {
+        color: #FFAC1C;
+}
+
+#headerReferrer {
+        position: absolute;
+        left: 15px;
+        top: 95px;
+        color: black;
+        font-size: 16px;
+
+}
+
+#barLeft {
+        position: relative;
+        top: 8px;
+        width: 180px;
+        padding-bottom: 8px;
+}
+
+#barLeftBlock {
+        position: relative;
+        top: 10px;
+        height: 150px;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -khtml-border-radius: 25px;
+        border-radius: 25px;
+        background-color: white;
+}
+
+#barLeftBlockHeader1 {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 170px;
+        height: 40px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FFD07F;
+}
+
+#barLeftBlockHeader2 {
+        position: absolute;
+        top: 25px;
+        left: 5px;
+        height: 20px;
+        width: 170px;
+        background-color: #FFD07F;
+}
+
+#barLeftBlockHeaderText {
+        position: absolute;
+        font-weight: bold;
+        top: 15px;
+        left: 15px;
+        font-size: 18px;
+        color: black;
+}
+
+#barLeftBlockText {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        font-size: 17px;
+        color: black;
+}
+
+#main {
+        position: absolute;
+        top: 100px;
+        left: 188px;
+        right: 0px;
+        min-height: 700px;
+        background-color: white;
+        padding: 47px 5px 25px 5px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+        border-radius: 20px;
+}
+
+#arcFix1 {
+        position: absolute;
+        left: 150px;
+        top: 100px;
+        width: 88px;
+        height: 100px;
+        background-color: white;
+        z-index: -300;
+}
+
+#arcFix2 {
+        position: absolute;
+        left: 100px;
+        top: 140px;
+        width: 88px;
+        height: 100px;
+        background-color: #FFA100;
+        z-index: -200;
+        -moz-border-radius: 33px;
+        -webkit-border-radius: 33px;
+        -khtml-border-radius: 33px;
+        border-radius: 33px;
+}
+
+#footer {
+        position: absolute;
+        bottom: 5px;
+        left: -1px;
+        color: black;
+        text-align: right;
+        display:none;
+}
+
+.install-div th {
+        background-color: #FFD07F;
+        border: 1px solid orange;
+}
+
+.install-div td {
+        background-color: #FFD07F;
+        border: 1px solid orange;
+        cursor: hand;
+        cursor: pointer;
+}
+ 
+table {
+        background-color: #FFD07F;
+        border: 8px solid orange;
+}
+
+.hand {
+        cursor: pointer;
+        cursor: hand;
+}
+
+
+
+
+
+
